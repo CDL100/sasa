@@ -1,0 +1,23 @@
+.zz-FixNav{
+    height:1.6rem;
+    ul{
+        display:flex;
+        background:#252525;
+    }
+    a{
+        padding-top:0.186667rem;
+        text-align:center;
+        flex:1;
+        color:#fff;
+    }
+    i{
+        font-size:0.64rem;
+    }
+    span{
+        display:block;
+        padding:0.133333rem 0;
+    }
+    .fixActive{
+        color:#FF1493;
+    }
+}

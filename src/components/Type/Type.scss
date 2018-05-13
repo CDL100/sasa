@@ -1,0 +1,19 @@
+.zz-type{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+}
+.t-header{
+    height:1.146667rem;
+    line-height:1.146667rem;
+    font-size:0.48rem;
+    text-align:center;
+    position:relative;
+    i{
+        position:absolute;
+        top:0;
+        right:0.133333rem;
+        transform:translateY(50%);
+        font-size:0.533333rem;
+    }
+}
