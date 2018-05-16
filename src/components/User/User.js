@@ -9,6 +9,7 @@ export default class User extends Component{
         return (
             <div className="kz-user">
                 <FixNav/>
+                
             </div>
         )
     }
