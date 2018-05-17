@@ -45,7 +45,9 @@ li{
     }
     .lk_dnav{
             height:80px; display:flex; border-bottom:0.5px solid #e5e5e5;
-
+    .lk_active{
+            color:#F383AB;
+        }
         li{
             flex:1;line-height:80px;text-align:center;
             border-left:0.5px solid #e5e5e5;
