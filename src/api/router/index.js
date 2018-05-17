@@ -24,6 +24,7 @@ module.exports = {
         users.register(app);
         users.login(app);
         typelist.getType(app);
+        typelist.getList(app);
         app.listen(_port);
     }
 }

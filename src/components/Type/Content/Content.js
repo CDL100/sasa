@@ -4,6 +4,7 @@ import TypeList from '../TypeList/TypeList.js';
 
 export default class Content extends React.Component {
     componentDidMount(){
+        $('.type li')[0].classList.add('type-alive')
         var swiper = new Swiper('.swiper-container', {
             pagination: {
                 el: '.swiper-pagination',
