@@ -23,7 +23,7 @@ const routes = (
         <Route path="/type" component={Type} />
         <Route path="/goodslist(/:type)" component={GoodsList} />
         <Route path="/special" component={Special} />
-        <Route path="/cart" component={Cart} />
+        <Route path="/cart(/:goods_id)" component={Cart} />
         <Route path="/user" component={User} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
