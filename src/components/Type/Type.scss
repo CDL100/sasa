@@ -79,6 +79,16 @@
 .TypeList{
     flex:1;
     overflow-x:hidden;
+    a{
+        text-decoration: none;
+        color:#000;
+    }
+    a:nth-child(1){
+        color:#BEB18F;
+    }
+    a:nth-child(2){
+        color:#BEB18F;
+    }
     li{
         display:flex;
         height:1.973333rem;
