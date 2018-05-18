@@ -47,7 +47,6 @@
     "flux": "^3.1.2",
     "mysql": "^2.15.0",
     "react-swipe": "^5.1.1",
-    "swipe-js-iso": "^2.0.4",
     "swiper": "^4.2.6"
   }
 }

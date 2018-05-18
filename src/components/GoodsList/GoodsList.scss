@@ -1,0 +1,132 @@
+.lk_dhome{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction:column;
+        background:#fff;
+
+    }
+
+.lk_dheader{
+        height:75px; display:flex;    justify-content:center;
+        border-bottom:0.5px solid  #BEBEBE;
+li{
+        line-height: 75px;position: relative;
+        text-align:center;
+
+        }
+    }
+    .lk_dheader li:nth-child(2){
+
+        width:70%; 
+    .lk_soso{
+        width: 525px;height: 50px;border:0;background:#F2F2F2;
+        font-size:20px;padding-left:50px;border-radius:55px;
+  
+    }
+    .fa-search{
+        position: absolute;color:#686868;font-size:26px;
+        left:10px;top:28px;
+    }
+
+        }
+        .lk_dheader li:nth-child(1){
+            width:15%; 
+        .fa-long-arrow-left{
+            font-size:28px;color:#5E5E5E;
+
+        }
+        }
+        .lk_dheader li:nth-child(3){
+            width:15%; 
+        .fa-filter{
+            color:#898989;
+        }
+    }
+    .lk_dnav{
+            height:80px; display:flex; border-bottom:0.5px solid #e5e5e5;
+    .lk_active{
+            color:#F383AB;
+        }
+        li{
+            flex:1;line-height:80px;text-align:center;
+            border-left:0.5px solid #e5e5e5;
+        }
+            }
+.lk_dmain{
+            flex:1;display:flex;flex-direction:column;overflow-x:auto;
+    .thprice{
+            font-size:34px;
+            color:#EC3E7D;
+    }
+     
+    .fourtxt{
+
+        .ftxt{
+            font-size:24px;color:#C0C0C0;
+        }
+      
+    }
+    .icout{
+        position:absolute;right:40px;top:8px;border:1px solid #ccc;
+        color:#C1C1C1;
+    }
+   
+    li{
+
+        border-bottom:0.5px solid #e5e5e5;position:relative;
+        .dmain_img{
+        float:left;padding-left:40px;
+
+        img{
+            width: 172px;height:182px;
+        }
+
+         }
+    .dmain_txt{
+        width:430px;
+                            
+
+
+        .lk_brief{
+
+            font-size:0.4rem;width:100%;              
+            overflow:hidden; 
+            text-overflow:ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient:vertical;
+            -webkit-line-clamp:2;
+
+
+        }
+
+        .facover{
+            display:block;width: 65px;height:60px;
+            background:#EC3E7D;border-radius:50%;
+            position:absolute;  right:39px;top:164px; z-index:1; 
+
+            }
+        .newshop{
+            display:block;position: absolute;
+            width:60px;height:60px;
+            text-align:center;line-height:30px;
+            background:#EC3E7D;color:#fff;
+            left:0px;top:0px;
+        }
+
+            margin-top:40px;margin-left:40px;
+            float:left;
+
+        .fa-shopping-cart{ 
+            color:#ccc;position:absolute;
+            right:60px;top:185px; z-index:5;                  
+        
+           
+        }
+
+    }
+    }
+     
+    }
+
+     
