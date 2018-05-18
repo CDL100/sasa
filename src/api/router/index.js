@@ -24,6 +24,9 @@ module.exports = {
         users.register(app);
         users.login(app);
         typelist.getType(app);
+        typelist.getList(app);
+        typelist.getSpecial(app);
+        typelist.getBrand(app);
         app.listen(_port);
     }
 }

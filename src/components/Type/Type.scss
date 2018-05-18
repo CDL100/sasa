@@ -47,17 +47,20 @@
     border-radius: 0;
     background:#fff;
     height:1.333333rem;
+    outline: none;
 }
 .swiper-pagination-bullet-active {
     color:#E3417C;
-    border-bottom:0.013333rem solid #E3417C;
+    border-bottom:0.026667rem solid #E3417C;
+    outline: none;
 }
-
+//内容显示框
 .swiper-slide{
     display:flex;
     overflow:hidden;
     font-size:0.346667rem;
 }
+
 .type{
     width: 2.933333rem;
     display:flex;
@@ -79,12 +82,42 @@
 .TypeList{
     flex:1;
     overflow-x:hidden;
-    li{
+    a{
+        text-decoration: none;
+        color:#000;
+    }
+    li:nth-child(1) a{
+        color:#BEB18F;
+    }
+    li:nth-child(2) a{
+        color:#BEB18F;
+    }
+    a{
+        width: 100%;
+        height: 100%;
         display:flex;
-        height:1.973333rem;
         padding:0 0.32rem;
         justify-content:space-between;
         align-items:center;
         border-top:0.013333rem solid #ccc;
     }
+}
+
+.brand{
+    overflow-y:scroll;
+    ul{
+        width: 100%;
+        padding-right:0.373333rem;
+    }
+    a{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        color:#000;
+        justify-content:space-between;
+        align-items:center;
+        padding-left:0.373333rem;
+        border-top:0.013333rem solid #ccc;
+    }
+    
 }

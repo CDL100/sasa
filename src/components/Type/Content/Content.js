@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import TypeList from '../TypeList/TypeList.js';
-
+import Brand from '../Brand/Brand.js';
 export default class Content extends React.Component {
     componentDidMount(){
+        $('.type li')[0].classList.add('type-alive')
         var swiper = new Swiper('.swiper-container', {
             pagination: {
                 el: '.swiper-pagination',
@@ -58,7 +59,9 @@ export default class Content extends React.Component {
                         </ul>
                         <TypeList ref="TypeList"/>
                     </div>
-                    <div className="swiper-slide"></div>
+                    <div className="swiper-slide brand">
+                        <Brand/>
+                    </div>
                 </div>
             </div>
         )

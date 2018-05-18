@@ -10,15 +10,13 @@ module.exports = {
             let password = req.body.password;
             let nickname = req.body.nickname;
             let result = await db.insert('users',{username,password,nickname});
-                res.send(result);
+            res.send(result);
         })
     },
     login(app){
         app.post('/login', async (req, res) => {
-            // console.log(req.body)
             let username = req.body.username;
-            let password = req.body.pwd;
-            
+            let password = req.body.password;
             let result = await db.select('users', {username, password});
             if(result.status){
                 let token = jwt.sign({username}, '123456', {expiresIn: 60 * 60});

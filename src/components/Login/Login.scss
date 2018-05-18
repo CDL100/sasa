@@ -1,0 +1,74 @@
+.login{
+    .login_header{
+        display:flex;
+        justify-content: space-between;
+        height:1.493333rem;
+        border-bottom:.013333rem solid #EEEEEE;
+        line-height:1.493333rem;
+        text-align:center;
+        margin:0 .533333rem;
+        img{
+            margin-top:.466667rem;
+            height:.56rem;
+        }
+        h2{
+            font-size:.506667rem;
+            color:#F16E9E;
+        }
+        h4{
+            font-size:.346667rem;
+            color:#333333;
+        }
+    }
+    .login-c{
+        height:.293333rem;
+        background-color: #F7F7F7;
+    }
+    .login_main{
+        input{
+            height:1.2rem;
+            width:100%;
+            line-height:1.2rem;
+            text-align:left;
+            border:0 none;
+            border-bottom:.013333rem solid #EEEEEE;
+            font-size:.453333rem;
+            color:#999999;
+            padding-left:.4rem;
+        }
+        .login_main_r{
+            height:1.2rem;
+            position:relative;
+            span{
+                position:absolute;
+                width:1.173333rem;
+                height:.906667rem;
+                font-size:.333333rem;
+                text-align:center;
+                line-height:.906667rem;
+                color:#A1A1A1;
+                border:.013333rem solid #EEEEEE;
+                background-color:#F7F7F7;
+                right:.48rem;
+                top:.16rem;
+            }
+        }
+        .login-cc{
+            height:1.72rem;
+            background-color: #F7F7F7;
+            font-size:.433rem;
+            line-height:1.72rem;
+            text-align:right;
+            padding-right:.266667rem;
+        }
+        .btn{
+            border-radius:.266667rem .266667rem;
+            height:1.12rem;
+            text-align:center;
+            font-size:.453333rem;
+            color:#FFFFFF;
+            background-color: #DDDDDD;
+            line-height:1.12rem;
+        }
+    }
+}
