@@ -10,6 +10,7 @@ export default class Type extends Component{
             <div className="zz-type">
                 <Header/>
                 <FixNav/>
+                  
             </div>
         )
     }

@@ -1,0 +1,161 @@
+
+/*body,html{
+    height:100%;
+}*/
+.hezi{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.f_header ul{
+    /*font-size: 12px;*/
+    background:#EC3E7D;
+    display:flex;
+    justify-content: space-between;
+    height:1.375rem;
+    padding:28px 40px;
+    font-size:0.46875rem;
+   
+}
+.f_header ul .bian{
+    margin-top:2px;
+
+}
+
+
+.f_header ul li img{
+  width:36px;
+}
+.f_main{
+    flex:1;
+    /*background:pink;*/
+    overflow-x:hidden;
+   /*padding:0.3125rem;*/
+}
+.f_main .img img{
+    height:600px;
+    display:block;
+    margin: 0 auto;
+}
+.f_main .name{
+    height:156px;
+    background:#F7F7F7;
+}
+.f_main .name p{
+    padding:10px 20px;
+    line-height:45px;
+   font-family: "微软雅黑";
+   color:#000;
+}
+.f_main .price{
+    height:100px;
+    /*background:#000;*/
+}
+.f_main .price p{
+    padding:24px 10px;
+   
+}
+.f_main .price .span1{
+ font-size:40px;
+ color:#EC3F7E;
+}
+.f_main .price s{
+    padding-left: 20px;
+font-family: "微软雅黑";
+   color:#ccc;
+}
+.f_main .price .span2{
+ /*font-size:40px;*/
+ width: 50px;
+ height: 50px;
+ background:#EC3F7E;
+ color:#fff;
+ margin-left:20px;
+}
+
+
+.f_main .xiangqing{
+    height:100px;
+    /*background:pink;*/
+}
+.f_main .xiangqing p{
+    padding:30px 10px;
+}
+.f_main .xiangqing i{
+   font-family: "微软雅黑";
+   color:#F59E37;
+}
+.f_main .xiangqing span{
+   font-family: "微软雅黑";
+   color:#000;
+
+}
+.f_main .yonghu h3,.f_main .xiangq h3{
+    font-family:"微软雅黑";
+color:#000;
+   margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.f_main .xiangq li a{
+   color:#000;
+    font-family:"微软雅黑";
+}
+.f_main .yonghu svg{
+    margin-top:20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.f_main .xiangq ul{
+ display:flex;
+    justify-content: space-between;
+    height:1.375rem;
+    padding:28px 40px;
+}
+.f_main .yonghu span{
+
+font-family: "微软雅黑";
+   color:#000;
+}
+.f_main .yonghu{
+    height:1000px;
+    position:relative;
+    /*background:red;*/
+}
+.f_main .yonghu ul{
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+}
+.f_main .yonghu .ganggang{
+    position: absolute;
+left:415px;
+top:86px;
+}
+.f_main .yonghu p{
+    padding:30px 20px;
+}
+.f_footer ul{
+    display:flex;
+    justify-content: space-between;
+}
+/*.f_footer{position: fixed;right: 0px;bottom: 0px;}*/
+.f_footer ul li{
+    width:50%;
+    height:1.375rem;
+    background:#000;
+    color: #fff;
+    text-align: center;
+    font-size:0.46875rem;
+    padding-top:25px;
+}
+
+.f_footer ul li:nth-child(2){
+     background:#EC3E7D;
+}
+
+.f_footer a{
+    color:#fff;
+}

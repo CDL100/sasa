@@ -1,0 +1,88 @@
+.dl-cart{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+}
+.hezi1{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.f_header1 ul{
+    /*font-size: 12px;*/
+    background:#EC3E7D;
+    display:flex;
+    justify-content: space-between;
+    height:1.375rem;
+    padding:28px 40px;
+    font-size:0.46875rem;
+   
+}
+.f_main1{
+    flex:1;
+    /*background:pink;*/
+    overflow-x:hidden;
+   /*padding:0.3125rem;*/
+}
+
+.f_footer ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+.jiezhang ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+.jiezhang ul li{
+    width:50%;
+    height:1.375rem;
+    background:#000;
+    color: #fff;
+    text-align: center;
+    font-size:0.46875rem;
+    padding-top:25px;
+}
+.jiezhang ul li:nth-child(2){
+     background:#EC3E7D;
+}
+.jiezhang ul li:nth-child(1){
+    font-size:24px;
+
+}
+
+
+.goods_list ul li{
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+    height: 260px;
+    padding: 40px;
+}
+.goods_list ul .minus{
+    width:50px;
+    height:50px;
+}
+.goods_list ul .plus{
+width:40px;
+    height:40px;
+}
+.goods_img{
+    float: left;
+    border: 1px solid #CCC;
+    margin-right: 20px;
+    width: 180px;
+    height: 180px;
+}
+.goods_bottom{
+    padding-top: 52px;
+}
+.goods_bottom .price{
+    color: #F02028;
+}
+.goods_list .num{
+    float: right;
+}
+.goods_list .num span{
+    padding: 0 30px;
+}

@@ -8,9 +8,12 @@ import Home from '../components/Home/Home.js';
 import Type from '../components/Type/Type.js';
 import Special from '../components/Special/Special.js';
 import Cart from '../components/Cart/Cart.js';
+import Particulars from '../components/particulars/particulars.js';
 import User from '../components/User/User.js';
 import Login from '../components/Login/Login.js';
 import Register from '../components/Register/Register.js';
+
+
 
 
 //path全为小写,组件名开头为大写
@@ -25,6 +28,7 @@ const routes = (
         <Route path="/user" component={User} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
+        <Route path="/particulars" component={Particulars} />
     </Route>
 )
 
