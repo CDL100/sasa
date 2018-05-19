@@ -1,5 +1,116 @@
-.kz-cart{
+.kz-user{
     height: 100%;
     display:flex;
     flex-direction:column;
+    .user-h{
+        height:4.673333rem;
+        background-color: #EA2B92;
+        position:relative;
+        .user-hr{
+            display:flex;
+            justify-content: space-between;
+            width:1.753333rem;
+            height:.506667rem;
+            position:absolute;
+            right:.533333rem;
+            top:.506667rem;
+            span{
+                font-size:.766667rem;
+            }
+
+        }
+        img{
+            position:absolute;
+            top:.933333rem;
+            left:33%;
+            width:3.588rem;
+        }
+        .user-hb{
+            position:absolute;
+            bottom:.266667rem;
+            left:36%;
+            margin-top:.806667rem;
+            span{
+                margin-right:.266667rem;
+                font-size:.686667rem;
+                color:#fff;
+            }
+        }
+    }
+    .user-b{
+        ul{
+            display:flex;
+            justify-content: space-between;
+            height:1.46667rem;
+            padding:0 .4rem;
+            border-bottom:.013333rem solid #DFDFDF;
+            li{
+                width:1.866667rem;
+                height:1.46667rem;
+                line-height: .746667rem;
+                text-align:center;
+                span{
+                    display:block;
+                    font-size:.413333rem;
+                }
+            }
+        
+        }
+    }
+    .user-bc{
+        height:.32rem;
+        background-color: #F5F5F5;
+    }
+    .user-c{
+        ul{
+            display:flex;
+            justify-content: space-between;
+            height:1.46667rem;
+            padding:0 .4rem;
+            border-bottom:.013333rem solid #DFDFDF;
+            border-top:.013333rem solid #DFDFDF;            
+            li{
+                width:1.866667rem;
+                height:1.46667rem;
+                line-height: .746667rem;
+                text-align:center;
+                i{
+                    font-size:.513333rem;
+                }
+                span{
+                    display:block;
+                    font-size:.313333rem;
+                }
+            }
+        
+        }
+    }
+    .user-m{
+        ul{
+            li{
+                height:1.346667rem;
+                position:relative;
+                border-top:.013333rem solid #DFDFDF;
+                border-bottom:.013333rem solid #DFDFDF;
+                img{
+                    position:absolute;
+                    left:.215333rem;
+                    top:.246333rem;
+                    width:.84rem;
+                    height:.84rem;
+                }
+                span{
+                    position:absolute;
+                    left:1.19983rem;
+                    font-size:.54rem;
+                    line-height:1.34667rem;
+                    text-align:center;
+                }
+            }
+        }
+    }
+    .user-bb{
+        height:1.5333rem;
+        background-color: #F5F5F5;
+    }
 }

@@ -6,6 +6,7 @@ import {Route, IndexRoute} from 'react-router';
 import App from '../components/App/App.js';
 import Home from '../components/Home/Home.js';
 import Type from '../components/Type/Type.js';
+import GoodsList from '../components/GoodsList/GoodsList.js';
 import Special from '../components/Special/Special.js';
 import Cart from '../components/Cart/Cart.js';
 import Particulars from '../components/particulars/particulars.js';
@@ -23,8 +24,9 @@ const routes = (
         <IndexRoute component={Home} />
         <Route path="/" component={Home} />
         <Route path="/type" component={Type} />
+        <Route path="/goodslist(/:type)" component={GoodsList} />
         <Route path="/special" component={Special} />
-        <Route path="/cart" component={Cart} />
+        <Route path="/cart(/:goods_id)" component={Cart} />
         <Route path="/user" component={User} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
